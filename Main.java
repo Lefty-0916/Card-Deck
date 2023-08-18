@@ -52,7 +52,6 @@ public class Main {
         Random rand = new Random();
         for (int i = deck.size() - 1; i > 0; i--) {
             int index = rand.nextInt(i + 1);
-            // Swap cards[i] with cards[index]
             swap(deck, i, index);
         }
     }
